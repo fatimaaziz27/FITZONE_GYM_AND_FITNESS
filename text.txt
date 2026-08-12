@@ -1,0 +1,308 @@
+colors ----->
+black = #110F0E
+yellow = #EEAE00
+white = #FFFFFF
+
+Project 2 — FitZone Gym & Fitness
+Client
+A modern fitness center wants a professional website to attract new members and showcase its membership plans.
+Your Goal
+Build a responsive gym landing page that looks like a real commercial website.
+Technologies allowed:
+HTML5
+CSS3
+
+1. Navbar
+Logo
+FITZONE
+Navigation
+Home
+About
+Programs
+Trainers
+Pricing
+Contact
+Button
+Join Now
+
+2. Hero Section
+Use a large fitness/gym image as the background.
+Small heading
+TRAIN HARD. LIVE STRONG.
+Main heading
+Build Your S+trongest Version
+Paragraph
+Transform your body, improve your fitness, and build confidence with expert trainers, modern equipment, and programs designed for every fitness level.
+Buttons
+Start Your Journey
+View Programs
+Small information
+Open 24/7
+Train whenever you want with unlimited access to our facility.
+
+3. About Us
+Heading
+More Than Just a Gym
+Paragraph
+FitZone is a modern fitness center designed to help people become stronger, healthier, and more confident.
+We provide professional training, modern equipment, personalized programs, and a supportive community that keeps you motivated throughout your fitness journey.
+Statistics
+Create 4 statistic boxes:
+5+
+Years Experience
+2,000+
+Active Members
+15+
+Professional Trainers
+50+
+Weekly Classes
+
+4. Why Choose FitZone?
+Create 4 cards.
+Card 1 — Modern Equipment
+Train with high-quality equipment designed for strength, cardio, and functional training.
+Card 2 — Expert Trainers
+Get guidance from experienced and certified fitness professionals.
+Card 3 — Flexible Hours
+Our gym is open 24/7 so you can train according to your schedule.
+Card 4 — Supportive Community
+Train alongside motivated people and stay inspired throughout your journey.
+
+5. Programs
+Create a 3-card layout.
+Strength Training
+Build muscle, increase strength, and improve overall performance with structured strength programs.
+Learn More →
+
+Cardio Fitness
+Improve endurance and cardiovascular health with running, cycling, HIIT, and other cardio workouts.
+Learn More →
+
+Personal Training
+Get one-on-one coaching and a personalized workout plan designed around your goals.
+Learn More →
+
+6. Trainers
+Create 3 trainer cards with images.
+Alex Morgan
+Strength Coach
+8+ years of experience helping clients build strength and muscle.
+
+Sarah Wilson
+Fitness Trainer
+Specializes in weight loss, cardio fitness, and beginner programs.
+
+Daniel Lee
+Personal Trainer
+Focuses on functional training, mobility, and athletic performance.
+
+7. Membership Pricing
+ This is the most important section of Project 2.
+Create 3 pricing cards.
+
+Basic
+$19 / Month
+Gym Access
+Locker Access
+Free Wi-Fi
+Basic Equipment
+Button:
+Choose Basic
+
+Pro
+$39 / Month
+MOST POPULAR
+Everything in Basic
+Group Classes
+Personal Training Session
+Nutrition Guidance
+Fitness Assessment
+Button:
+Choose Pro
+
+Elite
+$69 / Month
+Everything in Pro
+Unlimited Personal Training
+Personalized Workout Plan
+Nutrition Plan
+Priority Support
+Button:
+Choose Elite
+
+Pricing Design Challenge
+Make the Pro card visually different from the other two.
+For example:
+       MOST POPULAR
+      ┌───────────────┐
+      │      PRO      │
+      │   $39/month   │
+      │               │
+      │ ✓ Feature     │
+      │ ✓ Feature     │
+      │ ✓ Feature     │
+      │               │
+      │  Choose Pro   │
+      └───────────────┘
+You'll need to experiment with positioning to place the "MOST POPULAR" badge.
+
+8. Call To Action
+Create a large section with a background image or gradient.
+Heading
+Your Transformation Starts Today
+Paragraph
+Don't wait for the perfect moment. Start building a stronger, healthier, and more confident version of yourself today.
+Button
+Join FitZone
+
+9. Contact Section
+Create a contact section with two columns.
+Left side
+Get In Touch
+Address
+45 Fitness Avenue
+ Downtown
+Phone
++1 (555) 987-6543
+Email
+hello@fitzone.com
+Opening Hours
+Monday – Sunday
+ Open 24 Hours
+
+Right side
+Create a form.
+Full Name
+Input
+Email Address
+Input
+Phone Number
+Input
+Choose Program
+Dropdown:
+Strength Training
+Cardio Fitness
+Personal Training
+Group Classes
+Message
+Textarea
+Button:
+Send Message
+Important
+The form does not need to actually submit.
+You're practicing the HTML/CSS design.
+
+10. Footer
+FITZONE
+Train Hard. Live Strong.
+Quick Links
+Home
+About
+Programs
+Trainers
+Pricing
+Contact
+Programs
+Strength Training
+Cardio Fitness
+Personal Training
+Group Classes
+Follow Us
+Facebook
+Instagram
+YouTube
+Copyright
+© 2026 FitZone Fitness. All Rights Reserved.
+
+CSS Challenges
+This project should specifically teach you these concepts.
+1. CSS Grid
+Use Grid for:
+Programs
+Pricing
+Trainers
+Footer
+
+2. Flexbox
+Use Flexbox for:
+Navbar
+Buttons
+Statistics
+Card content
+Contact layout
+
+3. Positioning
+Practice:
+position: relative;
+position: absolute;
+Use this for the:
+MOST POPULAR
+badge.
+
+4. CSS Variables
+Try creating:
+:root {
+    --primary: ...;
+    --secondary: ...;
+    --dark: ...;
+    --light: ...;
+}
+Then reuse them throughout your CSS.
+
+5. Hover Effects
+Add hover effects to:
+Navbar links
+Buttons
+Program cards
+Trainer cards
+Pricing cards
+
+6. Responsive Design
+Your website must work on:
+Desktop
+[ Card ][ Card ][ Card ]
+Tablet
+[ Card ][ Card ]
+[ Card ]
+Mobile
+[ Card ]
+[ Card ]
+[ Card ]
+Do the same for trainers, programs, and pricing.
+
+Suggested Folder Structure
+FITZONE_GYM/
+│
+├── index.html
+├── style.css
+│
+├── images/
+│   ├── hero.jpg
+│   ├── trainer1.jpg
+│   ├── trainer2.jpg
+│   ├── trainer3.jpg
+│   ├── program1.jpg
+│   ├── program2.jpg
+│   └── program3.jpg
+│
+└── README.md
+
+Your Extra Challenges
+These aren't required, but try them before asking me for help:
+Add a dark overlay over the hero image
+Add a hover animation to the pricing cards
+Make the Pro card slightly larger
+Add a "Popular" badge using position: absolute
+Create a two-column contact layout
+Make the form look professional
+Add scroll-behavior: smooth
+Make the navbar responsive
+Use CSS variables
+Use object-fit: cover for trainer images
+
+Most important rule
+I am not giving you the code.
+You already built the Coffee Shop website. Now I want to see how much of that knowledge you can transfer to a completely different design.
+If you get stuck, send me your code, and I'll explain the problem and guide you rather than simply replacing your entire project with my code.
+When you're finished, send me the GitHub repository and I'll review Project 2 like a real code review.
+
