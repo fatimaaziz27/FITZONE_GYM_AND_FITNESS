@@ -21,6 +21,7 @@ ul {
     align-items: center;
     gap: 20px;
     box-sizing: border-box;
+    z-index: 1000;
 }
 ul li {
     display: flex;
@@ -60,8 +61,10 @@ ul li a:hover {
 
 
 
+
 .hero {
     min-height: 70vh;
+
     background-image: url("hero_section.png");
     background-size: cover;
     background-position: center;
@@ -73,20 +76,49 @@ ul li a:hover {
 
     position: relative;
 }
+
 .hero::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.69);
 }
+
+
 .hero_content {
     position: relative;
     z-index: 1;
 }
 
+h1 {
+    color: #EEAE00;
+    font-size: 75px;
+    margin: 10px;
+}
 
+h2 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 35px;
+}
 
+p {
+    color: #ffffff;
+    margin: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
 
+.buttons {
+    background-color: #EEAE00;
+    color: #110F0E;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-right: 6px;
+}
 
 
 
