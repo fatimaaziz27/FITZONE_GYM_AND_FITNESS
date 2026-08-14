@@ -140,6 +140,52 @@ p {
 }
 
 
+
+
+.about {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.about p {
+    color: #ffffff;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.underline {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 220px;
+    padding: 25px;
+    background-color: #000000;
+    border: #D4A017;
+    border-style:solid;
+    border-top: #000000;
+    border-bottom: #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #EEAE00;
+}
+
+.card p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
 /*
 p{
     font-family: 'Open Sans', sans-serif;
