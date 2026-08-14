@@ -230,3 +230,49 @@ p {
 }
 
 
+/*         TRAINER -------- >        */
+
+.trainer {
+    text-align: center;
+}
+.program_cards {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.pro_card {
+    width: 220px;
+    padding: 30px;
+    background-color: #000000;
+    text-align: center;
+}
+.pro_card:hover{
+    border: 0.5px solid #D4A017;
+    border-top: #000000;
+    border-bottom: #000000;
+}
+
+.pro_card h3 {
+    color: #EEAE00;
+    font-weight: 500;
+}
+.pro_card p {
+    color: #ffffff;
+    font-size: 16px;
+}
+.b {
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.9px solid #D4A017;
+    border-radius: 4px;
+    padding: 9px 17px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.b:hover {
+    color: #000000;
+    background-color: #D4A017;
+}
