@@ -113,6 +113,9 @@ p {
     cursor: pointer;
     margin-right: 6px;
 }
+.buttons:hover {
+    background-color: #d99c00;
+}
 
 
 
