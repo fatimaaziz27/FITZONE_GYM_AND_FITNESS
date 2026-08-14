@@ -146,13 +146,13 @@ p {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 .card {
     width: 220px;
-    padding: 25px;
+    padding: 30px;
     background-color: #000000;
     border: #D4A017;
     border-style:solid;
@@ -168,6 +168,19 @@ p {
     color: #ffffff;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 p{
