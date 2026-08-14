@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/*            NAV -------- >            */
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,7 +62,7 @@ ul li a:hover {
 
 
 
-
+/*           HERO -------- >         */
 .hero {
     min-height: 70vh;
 
@@ -77,39 +77,32 @@ ul li a:hover {
 
     position: relative;
 }
-
 .hero::before {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.69);
 }
-
-
 .hero_content {
     position: relative;
     z-index: 1;
 }
-
 h1 {
     color: #EEAE00;
     font-size: 75px;
     margin: 10px;
 }
-
 h2 {
     color: #ffffff;
     margin: 10px;
     font-size: 35px;
 }
-
 p {
     color: #ffffff;
     margin: 10px;
     line-height: 1.5;
     font-size: 20px;
 }
-
 .buttons {
     background-color: #EEAE00;
     color: #000000;
@@ -123,7 +116,7 @@ p {
 
 
 
-
+/*         ABOUT US -------- >        */
 .underline {
     position: relative;
     display: inline-block;
@@ -138,25 +131,18 @@ p {
     height: 3px;
     background-color: #EEAE00;
 }
-
-
-
-
 .about {
     text-align: center;
     padding: 80px 50px;
 }
-
 .about p {
     color: #ffffff;
     max-width: 900px;
     margin: 20px auto;
 }
-
 .underline {
     text-align: center;
 }
-
 .cards {
     display: flex;
     justify-content: center;
@@ -164,7 +150,6 @@ p {
     flex-wrap: wrap;
     margin-top: 30px;
 }
-
 .card {
     width: 220px;
     padding: 25px;
@@ -176,11 +161,9 @@ p {
     border-radius: 10px;
     text-align: center;
 }
-
 .card h3 {
     color: #EEAE00;
 }
-
 .card p {
     color: #ffffff;
     font-size: 16px;
