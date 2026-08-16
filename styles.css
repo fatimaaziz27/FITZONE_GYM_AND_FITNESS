@@ -228,6 +228,20 @@ p {
     color: #000000;
     background-color: #D4A017;
 }
+.pro_card {
+    border-left: 0.5px solid transparent;
+    border-right: 0.5px solid transparent;
+    transition: border-color 0.4s ease;
+}
+
+.pro_card:hover {
+    border-left-color: #D4A017;
+    border-right-color: #D4A017;
+}
+
+
+
+
 
 
 /*         TRAINER -------- >        */
@@ -235,30 +249,34 @@ p {
 .trainer {
     text-align: center;
 }
-.program_cards {
+.trainer_cards {
     display: flex;
     justify-content: center;
     gap: 90px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
-.pro_card {
+.t_card {
     width: 220px;
-    padding: 30px;
+    padding: 10px;
     background-color: #000000;
     text-align: center;
+    border-radius: 7px;
 }
-.pro_card:hover{
+.t_card:hover {
     border: 0.5px solid #D4A017;
-    border-top: #000000;
-    border-bottom: #000000;
 }
-
-.pro_card h3 {
+.image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+.t_card h3 {
     color: #EEAE00;
     font-weight: 500;
 }
-.pro_card p {
+.t_card p {
     color: #ffffff;
     font-size: 16px;
 }
@@ -276,3 +294,12 @@ p {
     color: #000000;
     background-color: #D4A017;
 }
+.t_card {
+    border: 0.5px solid transparent;
+    transition: border-color 0.4s ease;
+}
+.t_card:hover {
+    border-color: #D4A017;
+}
+
+
