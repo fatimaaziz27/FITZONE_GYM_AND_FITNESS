@@ -289,42 +289,18 @@ p {
 
 
 
+/* MEMBERSHIP PRICING */
 
-/*         MEMBERSHIP PRICING -------- >        */
 .Membership_Pricing {
     text-align: center;
 }
-.m_cards {
+
+.Membership_cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 40px;
     flex-wrap: wrap;
     margin-top: 20px;
-}
-.m_card {
-    width: 220px;
-    padding: 10px;
-    background-color: #000000;
-    text-align: center;
-    border-radius: 7px;
-}
-.m_card:hover {
-    border: 0.5px solid #D4A017;
-}
-.m_card h3 {
-    color: #EEAE00;
-    font-weight: 500;
-}
-.m_card p {
-    color: #ffffff;
-    font-size: 16px;
-}
-.m_card {
-    border: 0.5px solid transparent;
-    transition: border-color 0.4s ease;
-}
-.m_card:hover {
-    border-color: #D4A017;
 }
 
