@@ -10,7 +10,6 @@ body {
 
 
 /*            NAV -------- >            */
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -64,7 +63,6 @@ ul li a:hover {
 
 
 /*           HERO -------- >         */
-
 .hero {
     min-height: 70vh;
 
@@ -122,7 +120,6 @@ p {
 
 
 /*         ABOUT US -------- >        */
-
 .underline {
     position: relative;
     display: inline-block;
@@ -186,7 +183,6 @@ p {
 
 
 /*         PROGRAMS -------- >        */
-
 .pg {
     text-align: center;
 }
@@ -247,7 +243,6 @@ p {
 
 
 /*         TRAINER -------- >        */
-
 .trainer {
     text-align: center;
 }
@@ -283,20 +278,6 @@ p {
     color: #ffffff;
     font-size: 16px;
 }
-.b {
-    background-color: #000000;
-    color: #ffffff;
-    border: 0.9px solid #D4A017;
-    border-radius: 4px;
-    padding: 9px 17px;
-    font-size: 14px;
-    cursor: pointer;
-    margin-right: 6px;
-}
-.b:hover {
-    color: #000000;
-    background-color: #D4A017;
-}
 .t_card {
     border: 0.5px solid transparent;
     transition: border-color 0.4s ease;
@@ -305,4 +286,45 @@ p {
     border-color: #D4A017;
 }
 
+
+
+
+
+/*         MEMBERSHIP PRICING -------- >        */
+.Membership_Pricing {
+    text-align: center;
+}
+.m_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.m_card {
+    width: 220px;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 7px;
+}
+.m_card:hover {
+    border: 0.5px solid #D4A017;
+}
+.m_card h3 {
+    color: #EEAE00;
+    font-weight: 500;
+}
+.m_card p {
+    color: #ffffff;
+    font-size: 16px;
+}
+.m_card {
+    border: 0.5px solid transparent;
+    transition: border-color 0.4s ease;
+}
+.m_card:hover {
+    border-color: #D4A017;
+}
 
