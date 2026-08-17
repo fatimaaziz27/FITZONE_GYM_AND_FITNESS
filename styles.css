@@ -304,3 +304,703 @@ p {
     margin-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing {
+    min-height: 100vh;
+    background-color: #292929;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    padding: 40px;
+
+    flex-wrap: wrap;
+}
+
+
+/* CARD */
+
+.pricing-card {
+    width: 300px;
+    min-height: 640px;
+    height: auto;
+
+    background: linear-gradient(
+        to bottom,
+        #292929,
+        #0d0d0d
+    );
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    padding: 45px 20px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    position: relative;
+}
+
+
+/* CARD TITLE */
+
+.pricing-card h2 {
+    color: #FFB400;
+
+    font-size: 30px;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-weight: 800;
+}
+
+
+/* SUBTITLE */
+
+.pricing-card h4 {
+    color: #ffffff;
+
+    font-size: 14px;
+
+    margin: 0;
+}
+
+
+/* PRICE */
+
+.price {
+    color: #FFB400;
+
+    font-size: 68px;
+
+    font-weight: 800;
+
+    margin-top: 60px;
+}
+
+
+/* PER MONTH */
+
+.per-month {
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: -5px;
+}
+
+
+/* TRAINING SESSION */
+
+.includes {
+    margin-top: 75px !important;
+}
+
+
+/* SMALL GOLD LINE */
+
+.small-line {
+    width: 50px;
+    height: 1px;
+
+    background-color: #FFB400;
+
+    margin: 30px auto;
+}
+
+
+/* FEATURES */
+
+.features {
+    color: #ffffff;
+
+    font-size: 15px;
+
+    line-height: 1.05;
+
+    margin-top: 0;
+}
+
+
+/* BUTTON */
+
+.pricing-card button {
+    position: absolute;
+
+    bottom: 50px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 125px;
+    height: 46px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: #FFB400;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* BUTTON HOVER */
+
+.pricing-card button:hover {
+    background-color: #D4A017;
+}
+
+
+/* MOST POPULAR CARD */
+
+.popular-card {
+    background: linear-gradient(
+        to bottom,
+        #F8E7C0,
+        #FFB000
+    );
+
+    min-height: 685px;
+}
+
+
+/* CENTER CARD TITLE */
+
+.popular-card h2 {
+    color: #000000;
+
+    margin-top: 40px;
+}
+
+
+/* CENTER CARD TEXT */
+
+.popular-card h4,
+.popular-card .per-month,
+.popular-card .features {
+    color: #000000;
+}
+
+
+/* CENTER PRICE */
+
+.popular-card .price {
+    color: #000000;
+
+    font-size: 68px;
+}
+
+
+/* CENTER BUTTON */
+
+.popular-card button {
+    background-color: #000000;
+}
+
+
+/* CENTER BUTTON HOVER */
+
+.popular-card button:hover {
+    background-color: #292929;
+}
+
+
+/* MOST POPULAR LABEL */
+
+.popular {
+    position: absolute;
+
+    top: 52px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: #000000;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 1000px) {
+
+    .pricing {
+        gap: 25px;
+        padding: 30px 20px;
+    }
+
+    .pricing-card {
+        width: 280px;
+    }
+
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 650px) {
+
+    .pricing {
+        flex-direction: column;
+
+        gap: 30px;
+
+        padding: 30px 15px;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 350px;
+
+        min-height: 640px;
+    }
+
+    .popular-card {
+        min-height: 685px;
+    }
+
+}
+
+
+/* ========================= */
+/* SMALL MOBILE */
+/* ========================= */
+
+@media (max-width: 400px) {
+
+    .pricing {
+        padding: 25px 10px;
+    }
+
+    .pricing-card {
+        max-width: 100%;
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pricing-card h2 {
+        font-size: 26px;
+    }
+
+    .price,
+    .popular-card .price {
+        font-size: 58px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing {
+    min-height: 100vh;
+    background-color: #292929;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    padding: 60px 40px;
+
+    flex-wrap: wrap;
+}
+
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+
+.pricing-card {
+    width: 300px;
+    min-height: 620px;
+
+    background: linear-gradient(
+        to bottom,
+        #292929,
+        #0d0d0d
+    );
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    padding: 45px 25px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    position: relative;
+}
+
+
+/* ========================= */
+/* CARD TITLE */
+/* ========================= */
+
+.pricing-card h2 {
+    color: #FFB400;
+
+    font-size: 30px;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-weight: 800;
+}
+
+
+/* ========================= */
+/* PRICE */
+/* ========================= */
+
+.price {
+    color: #FFB400;
+
+    font-size: 68px;
+
+    font-weight: 800;
+
+    margin-top: 50px;
+}
+
+
+/* ========================= */
+/* PER MONTH */
+/* ========================= */
+
+.per-month {
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: -5px;
+}
+
+
+/* ========================= */
+/* MEMBERSHIP INCLUDES */
+/* ========================= */
+
+.includes {
+    color: #ffffff;
+
+    font-size: 14px;
+
+    margin-top: 55px !important;
+
+    margin-bottom: 0;
+}
+
+
+/* ========================= */
+/* SMALL GOLD LINE */
+/* ========================= */
+
+.small-line {
+    width: 50px;
+    height: 1px;
+
+    background-color: #FFB400;
+
+    margin: 25px auto;
+}
+
+
+/* ========================= */
+/* FEATURES */
+/* ========================= */
+
+.features {
+    color: #ffffff;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    text-align: left;
+
+    width: fit-content;
+
+    margin: 0 auto;
+
+    padding-left: 20px;
+}
+
+
+/* CHECK MARKS */
+
+.features li {
+    margin-bottom: 8px;
+}
+
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
+.pricing-card button {
+    position: absolute;
+
+    bottom: 45px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    min-width: 125px;
+
+    height: 46px;
+
+    padding: 0 18px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: #FFB400;
+
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* BUTTON HOVER */
+
+.pricing-card button:hover {
+    background-color: #D4A017;
+}
+
+
+/* ========================= */
+/* PRO CARD */
+/* ========================= */
+
+.popular-card {
+    background: linear-gradient(
+        to bottom,
+        #F8E7C0,
+        #FFB000
+    );
+
+    min-height: 660px;
+
+    transform: scale(1.03);
+}
+
+
+/* PRO TITLE */
+
+.popular-card h2 {
+    color: #000000;
+
+    margin-top: 35px;
+}
+
+
+/* PRO TEXT */
+
+.popular-card .per-month,
+.popular-card .includes,
+.popular-card .features {
+    color: #000000;
+}
+
+
+/* PRO PRICE */
+
+.popular-card .price {
+    color: #000000;
+
+    font-size: 68px;
+}
+
+
+/* PRO BUTTON */
+
+.popular-card button {
+    background-color: #000000;
+}
+
+
+/* PRO BUTTON HOVER */
+
+.popular-card button:hover {
+    background-color: #292929;
+}
+
+
+/* ========================= */
+/* MOST POPULAR BADGE */
+/* ========================= */
+
+.popular {
+    position: absolute;
+
+    top: 15px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: #000000;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 1000px) {
+
+    .pricing {
+        gap: 25px;
+
+        padding: 50px 20px;
+    }
+
+    .pricing-card {
+        width: 280px;
+    }
+
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 650px) {
+
+    .pricing {
+        flex-direction: column;
+
+        gap: 40px;
+
+        padding: 40px 15px;
+    }
+
+    .pricing-card {
+        width: 100%;
+
+        max-width: 350px;
+
+        min-height: 620px;
+    }
+
+    .popular-card {
+        min-height: 660px;
+
+        transform: none;
+    }
+
+}
+
+
+/* ========================= */
+/* SMALL MOBILE */
+/* ========================= */
+
+@media (max-width: 400px) {
+
+    .pricing {
+        padding: 30px 10px;
+    }
+
+    .pricing-card {
+        max-width: 100%;
+
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .pricing-card h2 {
+        font-size: 26px;
+    }
+
+    .price,
+    .popular-card .price {
+        font-size: 58px;
+    }
+
+    .features {
+        font-size: 14px;
+    }
+
+}
