@@ -240,8 +240,6 @@ p {
 
 
 
-
-
 /*         TRAINER -------- >        */
 .trainer {
     text-align: center;
@@ -305,6 +303,17 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*         MEMBERSHIP PRICING-------- >        */
 .pricing {
     min-height: 100vh;
     background-color: #292929;
@@ -615,23 +624,4 @@ p {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
