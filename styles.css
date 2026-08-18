@@ -10,7 +10,7 @@ body {
 
 
 /*            NAV -------- >            */
-ul {
+.ul_style {
     list-style-type: none;
     margin: 0;
     padding: 0 50px;
@@ -24,7 +24,7 @@ ul {
     box-sizing: border-box;
     z-index: 1000;
 }
-ul li {
+.li_style {
     display: flex;
     align-items: center;
 }
@@ -34,13 +34,13 @@ ul li {
     object-fit: contain;
     margin-right: 10px;
 }
-ul li a {
+.ul_style li a {
     display: block;
     color: white;
     padding: 15px 20px;
     text-decoration: none;
 }
-ul li a:hover {
+.ul_style li a:hover {
     background-color: #EEAE00;
     color: #000000;
 }
