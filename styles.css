@@ -314,6 +314,17 @@ p {
 
 
 /*         MEMBERSHIP PRICING-------- >        */
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+
 .pricing {
     min-height: 100vh;
     
@@ -429,10 +440,9 @@ p {
 
 .features {
     color: #ffffff;
-    font-size: 17px;
-    text-align: left;
-    line-height: 1.05;
     margin-top: 0;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 
@@ -471,16 +481,6 @@ p {
 .pricing-card button:hover {
     background-color: #D4A017;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
