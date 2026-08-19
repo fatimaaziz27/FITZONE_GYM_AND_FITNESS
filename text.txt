@@ -96,15 +96,6 @@ Daniel Lee
 Personal Trainer
 Focuses on functional training, mobility, and athletic performance.
 
-
-
-
-
-
-
-
-
-
 7. Membership Pricing
  This is the most important section of Project 2.
 Create 3 pricing cards.
@@ -155,12 +146,6 @@ For example:
       └───────────────┘
 You'll need to experiment with positioning to place the "MOST POPULAR" badge.
 
-
-
-
-
-
-
 8. Call To Action
 Create a large section with a background image or gradient.
 Heading
@@ -169,6 +154,10 @@ Paragraph
 Don't wait for the perfect moment. Start building a stronger, healthier, and more confident version of yourself today.
 Button
 Join FitZone
+
+
+
+
 
 9. Contact Section
 Create a contact section with two columns.

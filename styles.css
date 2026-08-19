@@ -311,8 +311,8 @@ ul.myUL {
 }
 /* CARD */
 .pricing-card {
-    width: 300px;
-    min-height: 600px;
+    width: 330px;
+    min-height: 700px;
     height: 100%;
 
     background: linear-gradient(
@@ -434,8 +434,8 @@ ul.myUL {
         #F8E7C0,
         #FFB000
     );
-
-    min-height: 685px;
+    width: 330px;
+    min-height: 780px;
 }
 /* CENTER CARD TITLE */
 .popular-card h2 {
@@ -550,16 +550,16 @@ ul.myUL {
 
 /*          MOST POPULAR CARD             */
 .CTA {
-    min-height: 70vh;
+    min-height: 60vh;
 
-    background-image: url("cta.png");
+    background-image: url("cta.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
-    padding: 80px;
+    padding: 100px;
 
     position: relative;
 }
@@ -573,32 +573,38 @@ ul.myUL {
     position: relative;
     z-index: 1;
 }
-/* h1 {
+.CTA h1 {
     color: #EEAE00;
     font-size: 75px;
     margin: 10px;
+    text-align: center;
 }
-h2 {
+.CTA h2 {
     color: #ffffff;
     margin: 10px;
     font-size: 35px;
+    text-align: center;
 }
-p {
+.CTA p {
     color: #ffffff;
     margin: 10px;
     line-height: 1.5;
     font-size: 20px;
+    text-align: center;
 }
-.buttons {
+
+.CTA_button {
     background-color: #EEAE00;
     color: #000000;
     border: none;
     border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 19px;
+    padding: 10px 25px;
+    font-size: 20px;
     cursor: pointer;
     margin-right: 6px;
+    display: block;
+    margin: 0 auto;
 }
-.buttons:hover {
+.CTA_button:hover {
     background-color: #ffc227;
-} */
+}
