@@ -98,14 +98,14 @@ h1 {
 h2 {
     color: #ffffff;
     margin: 10px;
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
 }
 p {
     color: #ffffff;
     margin: 10px;
     line-height: 1.5;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
 }
 .buttons {
@@ -121,6 +121,7 @@ p {
 .buttons:hover {
     background-color: #ffc227;
 }
+
 
 
 
