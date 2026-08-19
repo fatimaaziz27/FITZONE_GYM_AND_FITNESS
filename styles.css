@@ -316,7 +316,6 @@ p {
 /*         MEMBERSHIP PRICING-------- >        */
 .pricing {
     min-height: 100vh;
-    background-color: #292929;
 
     display: flex;
     justify-content: center;
