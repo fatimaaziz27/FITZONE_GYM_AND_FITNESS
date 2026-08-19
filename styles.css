@@ -316,7 +316,7 @@ p {
 /*         MEMBERSHIP PRICING-------- >        */
 .pricing {
     min-height: 100vh;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,8 +332,8 @@ p {
 
 .pricing-card {
     width: 300px;
-    min-height: 640px;
-    height: auto;
+    min-height: 600px;
+    height: 100%;
 
     background: linear-gradient(
         to bottom,
@@ -360,10 +360,10 @@ p {
 .pricing-card h2 {
     color: #FFB400;
 
-    font-size: 30px;
+    font-size: 40px;
 
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
     font-weight: 800;
 }
@@ -374,7 +374,7 @@ p {
 .pricing-card h4 {
     color: #ffffff;
 
-    font-size: 14px;
+    font-size: 19px;
 
     margin: 0;
 }
@@ -385,11 +385,11 @@ p {
 .price {
     color: #FFB400;
 
-    font-size: 68px;
+    font-size: 60px;
 
     font-weight: 800;
 
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 
@@ -398,7 +398,7 @@ p {
 .per-month {
     color: #ffffff;
 
-    font-size: 13px;
+    font-size: 17px;
 
     font-weight: bold;
 
@@ -409,15 +409,15 @@ p {
 /* TRAINING SESSION */
 
 .includes {
-    margin-top: 75px !important;
+    margin-top: 55px !important;
 }
 
 
 /* SMALL GOLD LINE */
 
 .small-line {
-    width: 50px;
-    height: 1px;
+    width: 60px;
+    height: 1.3px;
 
     background-color: #FFB400;
 
@@ -429,11 +429,9 @@ p {
 
 .features {
     color: #ffffff;
-
-    font-size: 15px;
-
+    font-size: 17px;
+    text-align: left;
     line-height: 1.05;
-
     margin-top: 0;
 }
 
@@ -449,12 +447,12 @@ p {
 
     transform: translateX(-50%);
 
-    width: 125px;
-    height: 46px;
+    width: 150px;
+    height: 50px;
 
     border: none;
 
-    border-radius: 30px;
+    border-radius: 15px;
 
     background-color: #FFB400;
 
@@ -475,6 +473,25 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOST POPULAR CARD */
 
 .popular-card {
@@ -492,8 +509,9 @@ p {
 
 .popular-card h2 {
     color: #000000;
-
-    margin-top: 40px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -510,8 +528,8 @@ p {
 
 .popular-card .price {
     color: #000000;
-
-    font-size: 68px;
+    margin-top: 20px;
+    font-size: 60px;
 }
 
 
@@ -525,7 +543,7 @@ p {
 /* CENTER BUTTON HOVER */
 
 .popular-card button:hover {
-    background-color: #292929;
+    background-color: #1b1b1b;
 }
 
 
@@ -542,7 +560,7 @@ p {
 
     color: #000000;
 
-    font-size: 14px;
+    font-size: 15px;
 
     font-weight: bold;
 
