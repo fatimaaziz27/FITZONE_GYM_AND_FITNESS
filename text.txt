@@ -159,6 +159,11 @@ Join FitZone
 
 
 
+
+
+
+
+
 9. Contact Section
 Create a contact section with two columns.
 Left side
@@ -195,11 +200,6 @@ Send Message
 Important
 The form does not need to actually submit.
 You're practicing the HTML/CSS design.
-
-
-
-
-
 
 
 
