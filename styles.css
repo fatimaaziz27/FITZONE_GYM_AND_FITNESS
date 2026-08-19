@@ -516,9 +516,9 @@ ul.myUL {
 
 
 
-/*          MOST POPULAR CARD             */
+/*          CALL TO ACTION             */
 .CTA {
-    min-height: 60vh;
+    min-height: 30vh;
 
     background-image: url("cta.avif");
     background-size: cover;
@@ -526,6 +526,7 @@ ul.myUL {
     background-repeat: no-repeat;
 
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 100px;
 
@@ -539,6 +540,7 @@ ul.myUL {
 }
 .CTA_content {
     position: relative;
+    width: 100%;
     z-index: 1;
 }
 .CTA h1 {
@@ -575,8 +577,11 @@ ul.myUL {
 .CTA_button:hover {
     background-color: #ffc227;
 }
-
-
+.a {
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 auto;
+}
 
 
 
