@@ -548,3 +548,57 @@ ul.myUL {
 
 
 
+/*          MOST POPULAR CARD             */
+.CTA {
+    min-height: 70vh;
+
+    background-image: url("cta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 80px;
+
+    position: relative;
+}
+.CTA::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.69);
+}
+.CTA_content {
+    position: relative;
+    z-index: 1;
+}
+/* h1 {
+    color: #EEAE00;
+    font-size: 75px;
+    margin: 10px;
+}
+h2 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 35px;
+}
+p {
+    color: #ffffff;
+    margin: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.buttons {
+    background-color: #EEAE00;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.buttons:hover {
+    background-color: #ffc227;
+} */
