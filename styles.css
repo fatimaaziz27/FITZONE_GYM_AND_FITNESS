@@ -591,3 +591,205 @@ ul.myUL {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Contact {
+    min-height: 80vh;
+    padding: 80px 10%;
+    background-color: #ffffff;
+}
+
+.Contact > h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* CONTACT CONTAINER */
+
+.Contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* LEFT SIDE */
+
+.Contact_info {
+    width: 40%;
+}
+
+.Contact_info h2 {
+    color: #EEAE00;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.Contact_info h3 {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.Contact_info p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* RIGHT SIDE */
+
+.Contact_form {
+    width: 50%;
+}
+
+.Contact_form h2 {
+    color: #EEAE00;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* FORM */
+
+.Contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact_form label {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+
+.Contact_form input,
+.Contact_form select,
+.Contact_form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: inherit;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.Contact_form input:focus,
+.Contact_form select:focus,
+.Contact_form textarea:focus {
+    border-color: #EEAE00;
+}
+
+.Contact_form textarea {
+    resize: vertical;
+}
+
+
+/* BUTTON */
+
+.Contact_form button {
+    width: 160px;
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    background-color: #EEAE00;
+    color: #000000;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.Contact_form button:hover {
+    background-color: #ffc227;
+}
+
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 850px) {
+
+    .Contact_container {
+        gap: 50px;
+    }
+
+    .Contact_info {
+        width: 45%;
+    }
+
+    .Contact_form {
+        width: 55%;
+    }
+
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 650px) {
+
+    .Contact {
+        padding: 60px 20px;
+    }
+
+    .Contact_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .Contact_info,
+    .Contact_form {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .Contact_info h2,
+    .Contact_form h2 {
+        font-size: 28px;
+    }
+
+}
