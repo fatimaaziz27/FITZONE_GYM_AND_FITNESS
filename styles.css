@@ -287,44 +287,7 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*         MEMBERSHIP PRICING-------- >        */
-div.container {
-  text-align: center;
-}
-
-ul.myUL {
-  display: inline-block;
-  text-align: left;
-}
-
-
-
 .pricing {
     min-height: 100vh;
     
@@ -337,10 +300,15 @@ ul.myUL {
 
     flex-wrap: wrap;
 }
-
-
+/* CENTER LI */
+div.container {
+  text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 /* CARD */
-
 .pricing-card {
     width: 300px;
     min-height: 600px;
@@ -364,10 +332,7 @@ ul.myUL {
 
     position: relative;
 }
-
-
 /* CARD TITLE */
-
 .pricing-card h2 {
     color: #FFB400;
 
@@ -378,10 +343,7 @@ ul.myUL {
 
     font-weight: 800;
 }
-
-
 /* SUBTITLE */
-
 .pricing-card h4 {
     color: #ffffff;
 
@@ -389,10 +351,7 @@ ul.myUL {
 
     margin: 0;
 }
-
-
 /* PRICE */
-
 .price {
     color: #FFB400;
 
@@ -402,10 +361,7 @@ ul.myUL {
 
     margin-top: 30px;
 }
-
-
 /* PER MONTH */
-
 .per-month {
     color: #ffffff;
 
@@ -415,17 +371,11 @@ ul.myUL {
 
     margin-top: -5px;
 }
-
-
 /* TRAINING SESSION */
-
 .includes {
     margin-top: 55px !important;
 }
-
-
 /* SMALL GOLD LINE */
-
 .small-line {
     width: 60px;
     height: 1.3px;
@@ -434,20 +384,14 @@ ul.myUL {
 
     margin: 30px auto;
 }
-
-
 /* FEATURES */
-
 .features {
     color: #ffffff;
     margin-top: 0;
     line-height: 1.5;
     font-size: 18px;
 }
-
-
 /* BUTTON */
-
 .pricing-card button {
     position: absolute;
 
@@ -474,10 +418,7 @@ ul.myUL {
 
     cursor: pointer;
 }
-
-
 /* BUTTON HOVER */
-
 .pricing-card button:hover {
     background-color: #D4A017;
 }
@@ -485,15 +426,7 @@ ul.myUL {
 
 
 
-
-
-
-
-
-
-
-/* MOST POPULAR CARD */
-
+/*          MOST POPULAR CARD             */
 .popular-card {
     background: linear-gradient(
         to bottom,
@@ -503,53 +436,35 @@ ul.myUL {
 
     min-height: 685px;
 }
-
-
 /* CENTER CARD TITLE */
-
 .popular-card h2 {
     color: #000000;
     font-size: 60px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
-
-
 /* CENTER CARD TEXT */
-
 .popular-card h4,
 .popular-card .per-month,
 .popular-card .features {
     color: #000000;
 }
-
-
 /* CENTER PRICE */
-
 .popular-card .price {
     color: #000000;
     margin-top: 20px;
     font-size: 60px;
 }
-
-
 /* CENTER BUTTON */
-
 .popular-card button {
     background-color: #000000;
     color: #ffffff;
 }
-
-
 /* CENTER BUTTON HOVER */
-
 .popular-card button:hover {
     background-color: #1b1b1b;
 }
-
-
 /* MOST POPULAR LABEL */
-
 .popular {
     position: absolute;
 
@@ -567,12 +482,7 @@ ul.myUL {
 
     white-space: nowrap;
 }
-
-
-/* ========================= */
 /* TABLET */
-/* ========================= */
-
 @media (max-width: 1000px) {
 
     .pricing {
@@ -585,12 +495,7 @@ ul.myUL {
     }
 
 }
-
-
-/* ========================= */
 /* MOBILE */
-/* ========================= */
-
 @media (max-width: 650px) {
 
     .pricing {
@@ -613,12 +518,7 @@ ul.myUL {
     }
 
 }
-
-
-/* ========================= */
 /* SMALL MOBILE */
-/* ========================= */
-
 @media (max-width: 400px) {
 
     .pricing {
@@ -642,4 +542,8 @@ ul.myUL {
     }
 
 }
+
+
+
+
 
