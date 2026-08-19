@@ -307,6 +307,7 @@ div.container {
 ul.myUL {
   display: inline-block;
   text-align: left;
+  list-style-type: none;
 }
 /* CARD */
 .pricing-card {
