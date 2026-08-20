@@ -618,22 +618,18 @@ ul.myUL {
 
 
 
-
+/*          CONTACT & SEND MESSAGE             */
 .Contact {
     text-align: center;
     min-height: 80vh;
     padding: 60px 10%;
     background-color: #000000;
 }
-
 .Contact > h2 {
     text-align: center;
     margin-bottom: 30px;
 }
-
-
 /* CONTACT CONTAINER */
-
 .Contact_container {
     display: flex;
     justify-content: center;
@@ -642,11 +638,7 @@ ul.myUL {
     max-width: 1100px;
     margin: 0 auto;
 }
-
-
 /* LEFT SIDE */
-
-
 .contact_cards {
     display: flex;
     justify-content: center;
@@ -667,29 +659,20 @@ ul.myUL {
     color: #ffffff;
     font-size: 16px;
 }
-
-
-
 /* RIGHT SIDE */
-
 .Contact_form {
     width: 50%;
 }
-
 .Contact_form h2 {
     color: #EEAE00;
     font-size: 32px;
     margin-bottom: 30px;
 }
-
-
 /* FORM */
-
 .Contact_form form {
     display: flex;
     flex-direction: column;
 }
-
 .Contact_form label{
     text-align: left;
     color: #ffffff;
@@ -698,7 +681,6 @@ ul.myUL {
     margin-bottom: 15px;
     margin-top: 25px;
 }
-
 .Contact_form input,
 .Contact_form select,
 .Contact_form textarea {
@@ -713,20 +695,15 @@ ul.myUL {
     box-sizing: border-box;
     outline: none;
 }
-
 .Contact_form input:focus,
 .Contact_form select:focus,
 .Contact_form textarea:focus {
     border-color: #EEAE00;
 }
-
 .Contact_form textarea {
     resize: vertical;
 }
-
-
 /* BUTTON */
-
 .Contact_form button {
     width: 160px;
     margin-top: 25px;
@@ -743,16 +720,10 @@ ul.myUL {
 
     cursor: pointer;
 }
-
 .Contact_form button:hover {
     background-color: #ffc227;
 }
-
-
-/* ========================= */
 /* TABLET */
-/* ========================= */
-
 @media (max-width: 850px) {
 
     .Contact_container {
@@ -768,14 +739,8 @@ ul.myUL {
     }
 
 }
-
-
-/* ========================= */
 /* MOBILE */
-/* ========================= */
-
 @media (max-width: 650px) {
-
     .Contact {
         padding: 60px 20px;
     }
@@ -796,10 +761,7 @@ ul.myUL {
     .Contact_form h2 {
         font-size: 28px;
     }
-
 }
-
-
 .line {
     position: relative;
     display: inline-block;
