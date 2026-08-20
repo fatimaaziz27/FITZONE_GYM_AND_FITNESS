@@ -155,15 +155,6 @@ Don't wait for the perfect moment. Start building a stronger, healthier, and mor
 Button
 Join FitZone
 
-
-
-
-
-
-
-
-
-
 9. Contact Section
 Create a contact section with two columns.
 Left side
