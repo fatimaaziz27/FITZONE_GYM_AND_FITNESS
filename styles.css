@@ -620,6 +620,7 @@ ul.myUL {
 
 
 .Contact {
+    text-align: center;
     min-height: 80vh;
     padding: 80px 10%;
     background-color: #000000;
@@ -627,7 +628,7 @@ ul.myUL {
 
 .Contact > h2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -650,9 +651,9 @@ ul.myUL {
 }
 
 .Contact_info h2 {
-    color: #EEAE00;
-    font-size: 32px;
-    margin-bottom: 35px;
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 25px;
 }
 
 .Contact_info h3 {
@@ -664,7 +665,7 @@ ul.myUL {
 }
 
 .Contact_info p {
-    color: #444444;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
@@ -691,12 +692,13 @@ ul.myUL {
     flex-direction: column;
 }
 
-.Contact_form label {
+.Contact_form label{
+    text-align: left;
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
-    margin-bottom: 7px;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .Contact_form input,
@@ -797,4 +799,20 @@ ul.myUL {
         font-size: 28px;
     }
 
+}
+
+
+.line {
+    position: relative;
+    display: inline-block;
+}
+.line::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 1px;
+    background-color: #313131;
 }
