@@ -852,3 +852,35 @@ ul.myUL {
     font-size: 16px;
 }
 
+
+
+
+
+
+
+
+.contact_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.c {
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.c h3 {
+    color: #EEAE00;
+    font-weight: 500;
+}
+
+.c p {
+    color: #ffffff;
+    font-size: 16px;
+}
