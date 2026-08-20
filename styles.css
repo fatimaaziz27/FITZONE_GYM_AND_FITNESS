@@ -646,30 +646,28 @@ ul.myUL {
 
 /* LEFT SIDE */
 
-.Contact_info {
-    width: 40%;
-}
 
-.Contact_info h2 {
-    color: #ffffff;
-    font-size: 23px;
-    margin-bottom: 25px;
+.contact_cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
-
-.Contact_info h3 {
+.c {
+    width: 220px;
+    padding: 0px;
     text-align: center;
-    color: #ffffff;
-    font-size: 18px;
-    margin-top: 25px;
-    margin-bottom: 5px;
 }
-
-.Contact_info p {
+.c h3 {
+    color: #EEAE00;
+    font-weight: 500;
+}
+.c p {
     color: #ffffff;
     font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
 }
+
 
 
 /* RIGHT SIDE */
@@ -831,56 +829,5 @@ ul.myUL {
 
 
 
-.contact_cards {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-.c {
-    width: 220px;
-    padding: 0px;
-    text-align: center;
-}
-.c h3 {
-    color: #EEAE00;
-    font-weight: 500;
-}
-.c p {
-    color: #ffffff;
-    font-size: 16px;
-}
 
 
-
-
-
-
-
-
-.contact_cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    flex-wrap: nowrap;
-    margin-top: 30px;
-}
-
-.c {
-    width: 220px;
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.c h3 {
-    color: #EEAE00;
-    font-weight: 500;
-}
-
-.c p {
-    color: #ffffff;
-    font-size: 16px;
-}
