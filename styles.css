@@ -831,5 +831,24 @@ ul.myUL {
 
 
 
-
+.contact_cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.c {
+    width: 220px;
+    padding: 0px;
+    text-align: center;
+}
+.c h3 {
+    color: #EEAE00;
+    font-weight: 500;
+}
+.c p {
+    color: #ffffff;
+    font-size: 16px;
+}
 
