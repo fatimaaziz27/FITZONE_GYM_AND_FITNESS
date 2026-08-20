@@ -757,10 +757,7 @@ ul.myUL {
 
 
 
-/* =========================
-   FOOTER
-========================= */
-
+/*             FOOTER           */
 .footer {
     background-color: #000000;
     color: white;
@@ -768,7 +765,6 @@ ul.myUL {
     margin-top: 50px;
     border-top: 2px solid #555;
 }
-
 .footer_container {
     max-width: 1200px;
     margin: auto;
@@ -779,56 +775,42 @@ ul.myUL {
     gap: 50px;
     flex-wrap: wrap;
 }
-
 .footer_section {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
 .footer_section h2 {
     color: #EEAE00;
     margin-bottom: 1px;
 }
-
 .footer_section h3 {
     color: #EEAE00;
     margin-bottom: 10px;
 }
-
 .footer_section p {
     margin: 0;
 }
-
 .footer_section a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
-
 .footer_section a:hover {
     color: #EEAE00;
 }
-
 /* COPYRIGHT */
-
 .footer_bottom {
     text-align: center;
     border-top: 1px solid #555;
     margin-top: 30px;
     padding: 20px;
 }
-
 .footer_bottom p {
     margin: 0;
     font-size: 14px;
 }
-
-
-/* =========================
-   RESPONSIVE
-========================= */
-
+   /* RESPONSIVE */
 @media (max-width: 768px) {
 
     .footer_container {
@@ -840,7 +822,6 @@ ul.myUL {
         width: 200px;
     }
 }
-
 @media (max-width: 500px) {
 
     .footer_container {
