@@ -193,8 +193,6 @@ The form does not need to actually submit.
 You're practicing the HTML/CSS design.
 
 
-
-
 10. Footer
 FITZONE
 Train Hard. Live Strong.
@@ -302,10 +300,3 @@ Add scroll-behavior: smooth
 Make the navbar responsive
 Use CSS variables
 Use object-fit: cover for trainer images
-
-Most important rule
-I am not giving you the code.
-You already built the Coffee Shop website. Now I want to see how much of that knowledge you can transfer to a completely different design.
-If you get stuck, send me your code, and I'll explain the problem and guide you rather than simply replacing your entire project with my code.
-When you're finished, send me the GitHub repository and I'll review Project 2 like a real code review.
-
