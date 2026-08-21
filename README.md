@@ -65,22 +65,6 @@ Provides gym contact information and a contact form for users who want to get in
 * CSS Animations
 * CSS Hover Effects
 
-## Project Structure
-
-```text
-FITZONE_GYM_AND_FITNESS/
-│
-├── index.html
-├── styles.css
-├── hero_section.png
-├── logo.png
-├── fav.png
-├── cta.avif
-├── unknown.png
-├── text.txt
-└── README.md
-```
-
 ## Design
 
 The website uses a modern fitness-inspired design with:
@@ -97,41 +81,3 @@ The website uses a modern fitness-inspired design with:
 ## Purpose
 
 This project was created as part of my **HTML and CSS frontend development practice**.
-
-It helped me practice:
-
-* Structuring a complete webpage with HTML
-* Styling websites with CSS
-* Creating responsive layouts
-* Using Flexbox and CSS Grid
-* Creating cards
-* Designing navigation bars
-* Working with background images
-* Creating hover effects
-* Using CSS animations
-* Building pricing sections
-* Creating contact sections
-
-## Future Improvements
-
-* Add JavaScript functionality
-* Add a mobile navigation menu
-* Add membership registration
-* Add workout filtering
-* Add trainer profiles
-* Add an interactive BMI calculator
-* Add a working contact form
-* Add backend integration
-* Add user accounts and authentication
-* Add database support
-* Add online membership management
-
-## Author
-
-**Fatima Aziz**
-
-GitHub: https://github.com/fatimaaziz27
-
----
-
-© 2026 Fatima Aziz. All rights reserved.
